@@ -1,0 +1,13 @@
+db:
+  HOST: localhost
+  PORT: 5432
+  USER: user
+  PASSWORD: password
+  DBNAME: base
+  SSLMODE: disable
+
+server:
+  port: 8080
+
+gin:
+  mode: release
